@@ -227,61 +227,6 @@ h1 {
     display: none;
 }
 
-/*///////// Responsive Queries ////////*/
-
-@media only screen and (max-width: 1180px) {
-    .main-page-header {
-        width: 100%;
-        padding: 0 2%;
-    }
-}
-
-@media only screen and (max-width: 998px) {
-    h1 {
-        font-size: 200%;
-    }
-}
-
-@media only screen and (max-width: 768px) {
-    h1 {
-        font-size: 180%;
-    }
-
-    .main-nav {
-        display: none;
-    }
-
-    .mobile-icon {
-        display: inline-block;
-        color: #fff;
-        float: right;
-        margin-top: 30px;
-        margin-right: 20px;
-
-    }
-
-    .main-nav {
-        float: left;
-    }
-
-    .main-nav li {
-
-        display: block;
-        margin-top: 10px;
-    }
-
-}
-
-@media only screen and (max-width: 480px) {
-    .btn-full {
-        margin-right: 20px;
-    }
-
-    h1 {
-        font-size: 160%;
-    }
-
-}
 
 .box {
     float: left;
@@ -376,7 +321,7 @@ img {
 
 
 #formdiv {
-    width: 100%;
+    width: auto;
     float: left;
 }
 
@@ -389,7 +334,7 @@ img {
 .myform input[type="email"],
 .myform textarea {
     padding: 5px;
-    width: 100%;
+    width: auto;
 }
 
 #cformdiv {
@@ -449,4 +394,87 @@ footer {
     color: black;
     background-color: #e8491d;
     text-align: center;
+}
+
+/*///////// Responsive Queries ////////*/
+
+
+
+@media only screen and (max-width: 425px) {
+    #cformdiv {
+        width: auto;
+    }
+
+
+
+    #addressdiv {
+        width: auto;
+    }
+
+
+
+    .cmyform input[type="text"],
+    .cmyform input[type="number"],
+    .cmyform input[type="email"],
+    .cmyform textarea {
+        width: auto;
+    }
+
+    .box {
+        width: auto;
+    }
+}
+
+@media only screen and (max-width: 1180px) {
+    .main-page-header {
+        width: 100%;
+        padding: 0 2%;
+    }
+}
+
+@media only screen and (max-width: 998px) {
+    h1 {
+        font-size: 200%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    h1 {
+        font-size: 180%;
+    }
+
+    .main-nav {
+        display: none;
+    }
+
+    .mobile-icon {
+        display: inline-block;
+        color: #fff;
+        float: right;
+        margin-top: 30px;
+        margin-right: 20px;
+
+    }
+
+    .main-nav {
+        float: left;
+    }
+
+    .main-nav li {
+
+        display: block;
+        margin-top: 10px;
+    }
+
+}
+
+@media only screen and (max-width: 480px) {
+    .btn-full {
+        margin-right: 20px;
+    }
+
+    h1 {
+        font-size: 160%;
+    }
+
 }
