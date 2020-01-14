@@ -640,10 +640,8 @@ p.text-muted {
 }
 
 .team-member img {
-    width: 390px;
-    height: 550px;
-    border: 7px solid #e9ecef;
-
+    width: 45%;
+    border: 8px solid #e9ecef;
 }
 
 .team-member h4 {
