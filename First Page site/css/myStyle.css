@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+body{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: antiquewhite;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+}
+
+#menu{
+    text-align: right;
+    padding: 20px;
+    background-color: coral;
+    margin: 0;
+    overflow: hidden;
+}
+
+#menu li{
+    list-style-type: none;
+    display: inline;
+    padding: 25px;
+}
+
+#menu a{
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+a li:hover{
+    background-color: black;
+    color: white;
+}
+
+a li:active{
+    color: aqua;
+}
+
+h1{
+    text-align: center;
+    background-color: red;
+    margin-top: auto;
+    padding: 15px;
+    color: brown;
+    border-bottom: 3px solid black;
+}
+
+h3{
+    margin-left: 30px;
+}
+
+h1, h2, h3{
+    color: brown;
+}
+
+img{
+    width: 70%;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+footer{
+    text-align: center;
+    background-color: orangered;
+    padding: 5px;
+    color: white;
+    margin-top: 5px;
+}
+
+table{
+    width: 70%;
+}
+
+th{
+    background-color: blue;
+    color: white;
+    padding: 5px;
+}
+
+td{
+    background-color: grey;
+    color: white;
+    padding: 5px;
+}
+
+#contact{
+    width: 70%;
+    padding: 20px;
+    float: left;
+}
+
+.myForm label{
+    display: block;
+}
+
+.myForm input[type="text"], .myForm input[type="tel"], .myForm input[type="email"], textarea{
+    padding: 5px;
+    width: 90%;
+}
+
+.btn{
+    margin-top: 3px;
+    background-color: burlywood;
+    padding: 5px;
+}
+
+address{
+    border: 2px solid green;
+    padding: 10px;
+    color: blue;
+    display: block;
+}
+
+#details{
+    float: right;
+    margin-top: 45px;
+}
+
+fBox{
+    display: flex;
+    flex-direction: row;
+}
+
+.clear{
+    clear: both;
+}
+
+#map{
+    padding: 10px;
+}
+
+.myList li:nth-child(odd)
+{
+    background-color: red;
+}
+
+.myList li:nth-child(even)
+{
+    background-color: blue;
+}
+
+/*////mediaquery////*/
+
+@media only screen and (max-width:767px){
+    #details{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+    #contact{
+    width: 100%;
+    padding: 20px;
+    float: none;
+    text-align: center;
+}
+    table{
+    width: 100%;
+}
+    #menu{
+    text-align: center;
+    padding: 15px;
+    background-color: coral;
+}
+    #menu li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px;
+}
+    .myForm input[type="text"], .myForm input[type="tel"], .myForm input[type="email"], textarea{
+    padding: 5px;
+    width: 100%;
+}
+    #map{
+        width: 100%;
+        padding: 0px;
+}
+
+
+}
+
+
+@media only screen and (max-width:1024px){
+    #details{
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -10px;
+    text-align: center;
+}
+    #contact{
+    width: 100%;
+    padding: 0px;
+    float: none;
+    text-align: center;
+}
+    .myForm input[type="text"], .myForm input[type="tel"], .myForm input[type="email"], textarea{
+    padding: 5px;
+    width: 100%;
+}
+    table{
+    width: 100%;
+}
+    #map{
+        width: 100%;
+        padding: 0px;
+}
+    
+
+}
+
