@@ -1,0 +1,129 @@
+<!DOCtype>
+<html>
+
+<head>
+    <title> ABC Web Design </title>
+    <meta charset="utf-8">
+    <meta name="description" content="ABC Webdesign">
+    <meta name="keywords" content="ABC design">
+    <meta name="viewport" content="width=device-width, inital-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/myStyle.css">
+    <style>
+        #divform {
+            width: 70%;
+            float: left;
+        }
+
+        .myForm {
+            padding: 20px;
+        }
+
+        .myForm label {
+            display: block;
+        }
+
+        .myForm input[type="text"],
+        .myForm input[type="number"],
+        .myForm input[type="email"],
+        .myForm textarea {
+            padding: 5px;
+            width: 90%;
+        }
+
+        #mapframe {
+            padding: 20px;
+        }
+
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div id="title">
+                <h1><span style="color: red"> ABC </span>Web Design</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li> <a href="index.html"> Home </a></li>
+                    <li> <a href="about.html"> About </a></li>
+                    <li> <a href="services.html"> Services </a></li>
+                    <li class="current"> <a href="contact.html"> Contact </a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!--    ////subscribe section/////-->
+
+    <section id="subscribe">
+        <div class="container">
+            <h1> Subscribe to monthly newsletter</h1>
+            <form>
+                <input type="email" name="email" placeholder="Please enter your email">
+                <input type="submit" value="Subscribe" class="btn1">
+            </form>
+        </div>
+    </section>
+
+    <div class="container">
+        <h2> Contact Us </h2>
+        <div id="divform">
+            <form method="post" action="mailto:Daniaal10@hotmail.com" enctype="text/plain" class="myForm">
+                <div>
+                    <label> Name: </label>
+                    <input type="text" name="name" required>
+                </div>
+                <div>
+                    <label> Age: </label>
+                    <input type="number" name="age" required>
+                </div>
+                <div>
+                    <label> Email: </label>
+                    <input type="email" name="email" required>
+                </div>
+                <div>
+                    <label> Gender: </label>
+                    Male <input type="radio" name="gender" value="male">
+                    Female <input type="radio" name="gender" value="female">
+                    Other <input type="radio" name="gender" value="other">
+                </div>
+                <div>
+                    <textarea name="message"></textarea>
+                </div>
+                <div>
+                    <input type="submit" value="submit" class="btn2">
+                </div>
+            </form>
+        </div>
+
+        <aside id="two">
+            <h3>Address</h3>
+            Just IT Training Centre<br>
+            London, EC3N 1DD <br>
+            Phone: <a href="tel:02074269835" style="color: orangered">02074269835</a><br>
+            Email: <a href="mailto:jutsit@justit.co.uk" style="color: orangered">justit@justit.co.uk</a>
+        </aside>
+
+        <hr width="60%">
+
+        <iframe id="mapframe" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2483.045049777284!2d-0.07508039999999773!3d51.5123895!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4876034b9c0c3d4d%3A0x4a8a2e2a872317ef!2sMinories%2C%20London%20EC3N%201DD!5e0!3m2!1sen!2suk!4v1571752277648!5m2!1sen!2suk" width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+    </div>
+
+    <div class="clear"></div>
+
+
+
+
+
+
+
+    <footer>
+        <h3> ABC Web Designer and Developer &copy; 2018</h3>
+    </footer>
+
+
+
+</body>
+
+</html>
