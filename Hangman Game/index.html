@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Country Hangman Game</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="Classic and fun Hangman Game">
+    <meta name="keywords" content="Hangman games, Hangman Games">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Baloo+Bhai&display=swap" rel="stylesheet">
+    <!-- Bootstrap 4 CDN -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <style>
+        body{
+            font-family: 'Baloo Bhai', cursive;
+            background: url(Images/background.jpg);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            color: lightgoldenrodyellow;
+        }
+        
+        h1{
+            text-decoration: underline;
+            font-size: 35px;
+            float: left;
+        }
+        
+        .guessAns{
+            font-size: 25px;
+            float: right;
+        }
+        
+        p{
+            font-size: 25px;
+        }
+        
+        #statement{
+            font-size: 25px;
+            color: blue;
+        }
+        
+    </style>
+</head>
+<body>
+<div class="container">
+<h1 class="title">Country Finder</h1>
+<div class="guessAns">Wrong Guesses: <span id='errors'>0</span> of <span id='wrongAns'></span></div>
+<div class="text-center">
+    <img id='hangmanImg' src="./images/0.jpg" alt="">
+    <p>Guess the Country:</p>
+    <p id="wordGuess">The word to be guessed goes here</p>
+    <div id="statement"></div>
+    <button class="btn btn-info" onClick="reset()">Reset</button>
+</div> 
+</div>
+
+<script src='./js/hangman.js'></script>
+</body>
+</html>
