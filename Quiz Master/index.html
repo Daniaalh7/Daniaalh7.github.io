@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Football Quiz Game</title>
+    <meta charset="utf-8">
+    <meta name="description" content="A football quiz that only the football specialist will get right.">
+    <meta name="keywords" content="football, quiz, game">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/myStyle.css">
+    <script src = "js/main.js"></script>
+</head>
+<body>
+<h1>Football Specialist</h1>
+
+<form id = "quiz" name = "quiz">
+
+<p class = "questions">Which country won the World cup in 2018?</p>
+<input type = "radio" id = "mc" name = "question1" value = "Spain"> Spain<br>
+<input type = "radio" id = "mc" name = "question1" value = "Germany"> Germany<br>
+<input type = "radio" id = "mc" name = "question1" value = "France"> France<br>
+
+<p class = "questions">Which English Football club won the Treble in 1999?</p>
+<input type = "radio" id = "mc" name = "question2" value = "Manchester United"> Manchester United<br>
+<input type = "radio" id = "mc" name = "question2" value = "Liverpool"> Liverpool<br>
+<input type = "radio" id = "mc" name = "question2" value = "Arsenal"> Arsenal<br>
+
+<p class = "questions">Which player has scored the most amount of goals in Champions League history?</p>
+<input type = "radio" id = "mc" name = "question3" value = "C.Ronaldo"> C.Ronaldo<br>
+<input type = "radio" id = "mc" name = "question3" value = "Messi"> Messi<br>
+<input type = "radio" id = "mc" name = "question3" value = "Ronaldinho"> Ronaldinho<br>
+    
+<p class = "questions">Which transfer made this player the most expensive player in Football history?</p>
+<input type = "radio" id = "mc" name = "question4" value = "C.Ronaldo"> C.Ronaldo<br>
+<input type = "radio" id = "mc" name = "question4" value = "Neymar"> Neymar<br>
+<input type = "radio" id = "mc" name = "question4" value = "Pogba"> Pogba<br>
+    
+<p class = "questions">Which team has won the most Champions League trophies?</p>
+<input type = "radio" id = "mc" name = "question5" value = "Barcelona"> Barcelona<br>
+<input type = "radio" id = "mc" name = "question5" value = "Liverpool"> Liverpool<br>
+<input type = "radio" id = "mc" name = "question5" value = "Real Madrid"> Real Madrid<br>
+     
+<p class = "questions">Lionel Messi has scored the most amount of goals in all competitions in a calendar year, but how many goals did he manage to score?</p>
+<input type = "radio" id = "mc" name = "question6" value = "53"> 53<br>
+<input type = "radio" id = "mc" name = "question6" value = "91"> 91<br>
+<input type = "radio" id = "mc" name = "question6" value = "67"> 67<br>
+
+<input id = "button" type = "button" value = "Click to find out score!" onclick = "check();">
+
+</form>
+
+<div id = "after_text">
+<p id = "number_correct"></p>
+<p id = "message"></p>
+<img id = "picture">
+</div>
+</body>
+</html>
+

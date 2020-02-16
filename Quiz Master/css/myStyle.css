@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans+Extra+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Carter+One&display=swap');
+
+body {
+	font-family: 'Lato', sans-serif;
+    background: url(../Images/wallpaper.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: 'Fira Sans Extra Condensed', sans-serif;
+}
+
+h1{
+    text-align: center;
+    text-decoration: underline;
+    color: red;
+    text-shadow: 5px 1px 2px black, 0 0 25px blue, 0 0 25px darkblue;
+    font-size: 2.75rem;
+    font-family: 'Carter One', cursive;
+}
+
+#quiz {
+	background: #d2def2;
+	padding: 10px 20px 10px 20px;
+	width: 350px;
+	border-radius: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+input {
+	margin-bottom: 20px;
+	display: block;
+}
+
+#textbox {
+	height: 25px;
+	font-size: 16px;
+	border-radius: 5px;
+	border: none;
+    display: inline;
+}
+
+#button {
+	background: #6B5B95;
+	border: none;
+	border-radius: 5px;
+	padding: 10px;
+	color: white;
+	font-size: 16px;
+	transition-duration: .3s;
+	margin-top: 5px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    
+}
+
+#button:hover {
+	background: #92A8D1;
+	color: black;
+	cursor: pointer;
+
+}
+
+#after_text {
+	visibility: hidden;
+	background: #DD4124;
+	padding: 5px 20px 5px 20px;
+	width: 350px;
+	border-radius: 20px;
+	font-size: 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+#number_correct{
+    font-weight: bold;
+    margin-top: -1px;
+}
+
+#message{
+    font-size: 20px;
+}
+
+#picture {
+	width: 355px;
+	height: 240px;
+}
+
+#mc {
+	display: inline;
+} 
