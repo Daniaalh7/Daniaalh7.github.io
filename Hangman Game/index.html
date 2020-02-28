@@ -16,34 +16,38 @@
             background-repeat: no-repeat;
             background-position: center;
             background-size: cover;
-            color: lightgoldenrodyellow;
+            color: lightyellow;
         }
         
         h1{
             text-decoration: underline;
             font-size: 35px;
             text-align: left;
+            margin-top: 25px;
         }
         
         .guessAns{
             font-size: 25px;
             text-align: right;
+            margin-top: 28px;
         }
         
         p{
             font-size: 25px;
+            margin-top: 20px;
         }
         
         #statement{
             font-size: 25px;
-            color: blue;
+            color: yellow;
+            margin-top: 20px;
         }
         
         #hangmanImg{
-            margin-top: 15px;
             border: 4px solid black;
+            margin-top: 25px;
         }
-        
+    
     </style>
 </head>
 <body>
@@ -52,12 +56,13 @@
 <div class="guessAns">Wrong Guesses: <span id='errors'>0</span> of <span id='wrongAns'></span></div>
 <div class="text-center">
     <img id='hangmanImg' src="./Images/0.png" alt="">
-    <p>Guess the Country:</p>
+    <p id="guessC">Guess the Country:</p>
     <p id="wordGuess">The word to be guessed goes here</p>
     <div id="statement"></div>
     <button class="btn btn-info" onClick="reset()">Reset</button>
-</div> 
 </div>
+</div>
+    
 
 <script src='./js/hangman.js'></script>
 </body>

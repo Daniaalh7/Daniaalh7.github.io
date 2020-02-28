@@ -23,7 +23,8 @@ var countries = [
     "australia",
     "argentina",
     "china",
-    "denmark"
+    "denmark",
+    "thailand"
 ]
 
 let answer = '';
