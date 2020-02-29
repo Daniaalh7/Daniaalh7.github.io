@@ -70,10 +70,10 @@ h6 {
 }
 
 h2.text-uppercase3{
-    margin-top: -15%;
+    margin-top: -11.5%;
 }
 
-@media (min-width: 768px) {
+@media only screen and (min-width: 768px) {
     section {
         padding: 20px 0 150px 0;
     }
@@ -116,6 +116,13 @@ img::-moz-selection {
     border-color: #fec810;
 }
 
+.btn-primary1 {
+    background-color: #fec810;
+    border-color: #fec810;
+    color: white;
+    margin: 0 10px;
+}
+
 .btn-primary:active,
 .btn-primary:focus,
 .btn-primary:hover {
@@ -126,6 +133,19 @@ img::-moz-selection {
 
 .btn-primary:active,
 .btn-primary:focus {
+    box-shadow: 0 0 0 0.2rem rgba(254, 209, 55, 0.5) !important;
+}
+
+.btn-primary1:active,
+.btn-primary1:focus,
+.btn-primary1:hover {
+    background-color: #fec810 !important;
+    border-color: #fec810 !important;
+    color: white;
+}
+
+.btn-primary1:active,
+.btn-primary1:focus {
     box-shadow: 0 0 0 0.2rem rgba(254, 209, 55, 0.5) !important;
 }
 
@@ -230,18 +250,21 @@ header.masthead .intro-text .intro-heading {
     font-weight: 700;
     line-height: 50px;
     margin-bottom: 25px;
+    color: #fec810;
     font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji', 'Tomorrow', sans-serif;
 }
 
-@media (min-width: 768px) {
+@media only screen and (min-width: 768px) {
     header.masthead .intro-text {
         padding-top: 300px;
         padding-bottom: 200px;
+        color: #fec810;
     }
 
     header.masthead .intro-text .intro-lead-in {
         font-size: 40px;
         font-style: italic;
+        color: #fec810;
         line-height: 40px;
         margin-bottom: 25px;
         font-family: 'Droid Serif', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
@@ -255,6 +278,14 @@ header.masthead .intro-text .intro-heading {
         font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
         color: #fec810;
     }
+    
+    .btn-primary1 {
+    background-color: #fec810;
+    border-color: #fec810;
+    color: white;
+    margin: 5px;
+}
+    
 }
 
 section#About {
@@ -274,7 +305,6 @@ bg-light page-section.section-heading1 {
 }
 
 #portfolio .portfolio-item {
-    right: 0;
     margin: 0 0 15px;
 }
 
