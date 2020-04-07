@@ -1,30 +1,31 @@
-<!DOCTYPE html>
+<!DOCtype html>
 <html>
 
 <head>
-    <title> Sugar Delightss</title>
-    <meta name="viewport" content="width=device-width, inital-scale=1.0">
+    <title>Sugar Delightss</title>
     <meta charset="utf-8">
+    <meta name="description" content="All round amazing Bakery site that provides for Birthdays, parties or any other events.">
+    <meta name="keywords" content="bakery websites, cakes, desserts, cupcakes">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="css/website.css">
     <link href="https://fonts.googleapis.com/css?family=Patua+One&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="css/lightbox.min.css">
     <script type="text/javascript" src="js/lightbox-plus-jquery.min.js"></script>
 </head>
 
 <body>
-
     <header>
         <nav>
             <div class="row clearfix" id="index">
-                
                 <ul class="main-nav animated slideInDown" id="check-class">
                     <li><a href="#index"> Home </a></li>
                     <li><a href="#customerFavourites"> Customer favourites </a></li>
                     <li><a href="#products"> Products </a></li>
                     <li><a href="#contact"> Contact </a></li>
                 </ul>
-                <a href="#" class="mobile-icon" onclick="slideshow()"> <i class="fa fa-bars"> </i> </a>
+                <a href="#" class="mobile-icon" onclick="slideshow()"> <i class="fa fa-bars"></i> </a>
             </div>
         </nav>
 
@@ -46,49 +47,86 @@
             }
 
         </script>
-
-
-
     </header>
 
     <!--/////////////Customer favourites section/////////////////////-->
-
+    
+    
     <section class="page-section1" id="customerFavourites">
-
+    <div class="container"> 
         <div>
             <h2 class="section-heading text-uppercase2"><u>Customers' Favourites</u></h2>
             <p class="explanation"> These are the customers favourite products and most ordered products. Prices depend on clients and size of order.</p>
         </div>
-
+        <div id="cont"> 
         <div class="box">
             <img class="main" src="Images/birthdaycupcake.jpg">
             <h3 class="sub-heading">Birthday Cakes</h3>
-            <p class="explanation">This is an example of birthday cupcakes that we sell. Here is a batch of Manchester United cupcakes for a client. You are able to choose any type of theme you would like for the cupcakes. These are one of our most purchased and ordered products that a lot of clients enjoy.</p>
+            <p class="sub-para">This is an example of birthday cupcakes that we sell. Here is a batch of Manchester United cupcakes for a client. You are able to choose any type of theme you would like for the cupcakes. These are one of our most purchased and ordered products that a lot of clients enjoy.</p>
         </div>
         <div class="box">
             <img class="main" src="Images/coconutbites.jpg">
             <h3 class="sub-heading">Coconut Bites</h3>
-            <p class="explanation">This is another one of our most ordered and purchased products which are called Coconut bites. They are another example of different products that we sell to our customers and it is loved by a lot of customers. From customer responses, they are very nice and soft. The perfect sweet. </p>
+            <p class="sub-para">This is another one of our most ordered and purchased products which are called Coconut bites. They are another example of different products that we sell to our customers and it is loved by a lot of customers. From customer responses, they are very nice and soft. The perfect sweet. </p>
         </div>
         <div class="box">
             <img class="main" src="Images/terrysorange.jpg">
-            <h3 class="sub-heading">Orange chocolate Cupcakes</h3>
-            <p class="explanation">The most tasty cupcakes that we offer which is what a lot of customers have said when getting back in touch and reviewing the product. They are the Terrys orange chocolate cupcakes that can be used for Birthdays, family gatherings, Weddings, you name it they are for many occasions. </p>
+            <h3 class="sub-heading">Chocolate Cupcakes</h3>
+            <p class="sub-para">The most tasty cupcakes that we offer which is what a lot of customers have said when getting back in touch and reviewing the product. They are the Terrys orange chocolate cupcakes that can be used for Birthdays, family gatherings, Weddings, you name it they are for many occasions. </p>
         </div>
-
+        </div>
+        
+        <br>
+        <hr class="line">
+        <br>
+        
+        <h2 style="text-decoration: underline"> Customer Reviews</h2>
+        <table border="4px solid">
+        <thead>
+        <tr>
+            <th> Product </th>
+            <th> Taste </th>
+            <th> Design </th>
+            <th> Price </th>
+            <th> Recommend to others? </th>
+        </tr>    
+        </thead>
+        <tbody>
+        <tr>
+            <td> Birthday Cakes </td>
+            <td><img src="Images/tick.png"></td>
+            <td><img src="Images/tick.png"></td>
+            <td><img src="Images/tick.png"></td>
+            <td><img src="Images/tick.png"></td>
+        </tr>
+        <tr>
+            <td> Coconut Bites </td>
+            <td><img src="Images/tick.png"></td>
+            <td><img src="Images/tick.png"></td>
+            <td><img src="Images/cross.png"></td>
+            <td><img src="Images/tick.png"></td>
+        </tr>
+        <tr>
+            <td> Chocolate Cupcakes </td>
+            <td><img src="Images/tick.png"></td>
+            <td><img src="Images/tick.png"></td>
+            <td><img src="Images/tick.png"></td>
+            <td><img src="Images/tick.png"></td>
+        </tr>
+        </tbody>
+        </table>
+        </div>
     </section>
 
 
     <!--////////////Products section////////////-->
+        
 
-    <!--    <br>-->
-
-    <section class="page-section1" id="products">
-
+    <section class="page-section2" id="products">
+    <div class="container"> 
         <div>
-
             <h2 class="section-heading text-uppercase2"><u>Products</u></h2>
-            <p class="explanation"> Below are the variety of products. Click on the Image to make it larger and have a better look.</p><br>
+            <p class="explanation2"> Below are the variety of products. Click on the Image to make it larger and have a better look.</p><br>
         </div>
 
         <div class="gallery">
@@ -108,55 +146,53 @@
             <a href="Images/cakes.jpg" data-lightbox="mygallery"><img src="Images/cakes.jpg"></a>
             <a href="Images/jammy.jpg" data-lightbox="mygallery"><img src="Images/jammy.jpg"></a>
         </div>
-
+        </div>
     </section>
-
 
 
     <!--/////////////Contact section/////////////-->
 
-    <section class="page-section1" id="contact">
-
+    <section class="page-section3" id="contact">
+    <div class="container"> 
         <div class="col-lg-12 text-center">
             <h2 class="section-heading text-uppercase2"><u>Contact</u></h2>
+            <p class="explanation"> Thanks for visiting my website, please contact below for orders.</p>
         </div>
+        
 
-<!--        <div class="container">-->
-
-            <div id="cformdiv">
-                <form method="post" action="mailto:daniaal10@hotmail.com" enctype="text/plain" class="cmyform">
-
-
-                    <div>
-                        <label> Name: </label>
-                        <input type="text" name="name" required>
-                    </div>
-                    <div>
-                        <label> Age: </label>
-                        <input type="number" name="age" required>
-                    </div>
-                    <div>
-                        <label> Email: </label>
-                        <input type="email" name="email" required>
-                    </div>
-                    <div>
-                        <label> Gender: </label>
-                        Male <input type="radio" name="gender" value="male">
-                        Female <input type="radio" name="gender" value="female">
-                        Other <input type="radio" name="gender" value="other">
-                    </div>
-                    <div>
-                        <textarea name="message"></textarea>
-                    </div>
-                    <div>
-                        <input type="submit" value="submit" class="btn2">
-                    </div>
-
-
-                </form>
-            </div>
-<!--        </div>-->
-
+        <div id="cformdiv">
+            <form method="post" action="mailto:daniaal10@hotmail.com" enctype="text/plain" class="cmyform">
+                <div>
+                <label> Name: </label>
+                <input type="text" name="name" required>
+                </div>
+                
+                <div>
+                <label> Age: </label>
+                <input type="number" name="age" required>
+                </div>
+                
+                <div>
+                <label> Email: </label>
+                <input type="email" name="email" required>
+                </div>
+                
+                <div>
+                <label> Gender: </label>
+                Male <input type="radio" name="gender" value="Male">
+                Female <input type="radio" name="gender" value="Female">
+                Other <input type="radio" name="gender" value="Other">
+                </div>
+                
+                <div><textarea name="message"></textarea></div>
+                
+                <div>
+                <input type="submit" value="Submit" class="btn2">
+                </div>
+            </form>
+        </div>
+ 
+        <div id="flx"> 
         <div id="addressdiv">
             <address>
                 <u>My Details</u><br>
@@ -164,22 +200,25 @@
                 Email: <a href="safasugardelights@hotmail.com">safasugardelights@hotmail.com</a>
             </address>
         </div>
-    </section>
-
-
-    <div id="fixbtn">
-        <a href="#index" class="btn1">Home</a>
+        </div>
+        
+        <br>
+        <hr class="line">
+        <br>
+        
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2481.785912371483!2d0.04484621520149392!3d51.53548641647106!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47d8a63552c3a171%3A0x1ea8e5bd6bcc84d3!2s5%20Malvern%20Rd%2C%20East%20Ham%2C%20London%20E6%201LS!5e0!3m2!1sen!2suk!4v1583518225492!5m2!1sen!2suk" width="100%" height="550" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
     </div>
-
+    </section>
+    
+    <div class="clear"></div>
+    
+    <a href="#index">
+    <img src="Images/Up-icon%20(2).png" alt="Home arrow" class="fixImg">
+    </a>
+    
     <footer>
-        <p> &copy; Sugar Delightss 2019 </p>
-
-
+        <h4 id="ltf"> &copy; Sugar Delightss 2020 </h4>
     </footer>
 
-
-
-
 </body>
-
 </html>
