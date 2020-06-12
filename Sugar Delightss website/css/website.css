@@ -211,27 +211,27 @@ h2 {
     font-size: 45px;
     margin-top: 0;
     margin-bottom: 15px;
-    color: black;
+    color: bisque;
     text-align: center;
-    text-shadow: 8px 1px 4px red, 0 0 45px lightblue;
+    text-shadow: 8px 1px 4px black, 0 0 45px lightblue;
 }
 
 .page-section2 h2.section-heading {
     font-size: 45px;
     margin-top: 0;
     margin-bottom: 15px;
-    color: black;
+    color: bisque;
     text-align: center;
-    text-shadow: 8px 1px 4px red, 0 0 45px darkblue;
+    text-shadow: 8px 1px 4px black, 0 0 45px darkblue;
 }
 
 .page-section3 h2.section-heading {
     font-size: 45px;
     margin-top: 0;
     margin-bottom: 15px;
-    color: black;
+    color: bisque;
     text-align: center;
-    text-shadow: 8px 1px 4px red, 0 0 45px lightblue;
+    text-shadow: 8px 1px 4px black, 0 0 45px lightblue;
 }
 
 .page-section1 {
@@ -358,7 +358,7 @@ address a {
 address {
     display: block;
     color: #0F2A76;
-    border: 3px solid black;
+    border: 4px solid #A53737;
     padding: 10px;
     background-color: #ABB2B9;
     border-radius: 10px;
@@ -380,7 +380,7 @@ address {
 
 footer {
     padding: 20px 20px;
-    background-color: #101117;
+    background-color: #ABB2B9;
     color: blueviolet;
     text-align: center;
 }
