@@ -110,6 +110,11 @@ img::-moz-selection {
     padding: 20px 40px;
 }
 
+.btn-xl1 {
+    font-size: 18px;
+    padding: 10px 30px;
+}
+
 .btn-primary {
     background-color: #fec810;
     border-color: #fec810;
@@ -295,7 +300,6 @@ bg-light page-section.section-heading1 {
     color: #fff;
 
 }
-
 
 .service-heading {
     margin: 15px 0;
@@ -610,6 +614,7 @@ bg-light page-section.section-heading1 {
         padding: 0 30px 20px 20px;
         text-align: left;
     }
+    
 }
 
 @media (min-width: 992px) {
@@ -636,6 +641,7 @@ bg-light page-section.section-heading1 {
     .timeline > li.timeline-inverted > .timeline-panel {
         padding: 0 20px 20px;
     }
+    
 }
 
 @media (min-width: 1200px) {
@@ -660,16 +666,27 @@ bg-light page-section.section-heading1 {
     .timeline > li.timeline-inverted > .timeline-panel {
         padding: 0 100px 20px 20px;
     }
+
 }
 
-p.text-muted {
+.row1{
+    float: right;
+    width: 50%;
     text-align: center;
+    margin-top: 5px;
+}
+
+p.text-muted1 {
     font-size: 80%;
+    color: #A79090;
+    text-align: center;
 }
 
 .team-member {
-    margin-bottom: 50px;
     text-align: center;
+    margin: 10px 0px 20px 0px;
+    float: left;
+    width: 100%;
 }
 
 .team-member img {
@@ -687,10 +704,16 @@ p.text-muted {
     margin-top: 0;
 }
 
-section#contact {
 
+p.text-muted {
+    text-align: center;
+    font-size: 80%;
+    color: #A79090;
+}
+
+
+section#contact {
     background-color: #383535;
-    /*    background-image: url("../img/map-image.png");*/
     background-repeat: no-repeat;
     background-position: center;
 }
@@ -817,4 +840,13 @@ ul.social-buttons1 li a:active,
 ul.social-buttons1 li a:focus,
 ul.social-buttons1 li a:hover {
     background-color: #fed136;
+}
+
+@media only screen and (max-width: 1023px){
+    .row1{
+    float: none;
+    width: 100%;
+    text-align: center;
+}
+
 }
